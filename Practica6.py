@@ -1,0 +1,7 @@
+nombre = str(input("ingresa el nombre: "))
+print(f"si nombre tiene: {len(nombre.replace(" ",""))} caracteres")
+print(f"Nombre ingresado correctamente: {nombre.upper()}")
+contraseña = str(input("ingresa la contraseña: "))
+contra=contraseña.replace(" ","")
+print(f"la contraseña tiene: {len(contraseña.replace(" ",""))} caracteres")
+print(contra.isdigit())
